@@ -1,0 +1,9 @@
+[package]
+name = "commer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = { version = "1.23.1", features = ["derive"] }
+rouille = "3.6.2"
+thiserror = "2.0.12"
